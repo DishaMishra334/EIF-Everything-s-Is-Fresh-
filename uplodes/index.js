@@ -1,5 +1,0 @@
-const math = require('./math')
-console.log("this is calculation ",math.addfun(2,4))
-console.log("this is calculation ",math.subfun(2,4))
-console.log("this is calculation ",math.multifun(2,4))
-console.log("this is calculation ",math.divfun(2,4))
