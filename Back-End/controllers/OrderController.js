@@ -10,10 +10,7 @@ import Razorpay from 'razorpay'; // ⭐ NEW: Import Razorpay
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // ⭐ NEW: Initialize Razorpay with your Key ID and Key Secret
-const razorpay = new Razorpay({
-    key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET,
-});
+
 
 
 // Place an order for a user
