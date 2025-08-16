@@ -9,7 +9,7 @@ import adminAuth from '../middleware/adminAuth.js';
 const orderRouter = express.Router();
 
 orderRouter.post('/place', authMiddleware, placeOrder);
-orderRouter.get('/list', adminAuth, listOrders);
+orderRouter.get('/list', adminAuth, listOrders); 
 orderRouter.post('/updateStatus', adminAuth, updateStatus);
 orderRouter.post('/create-payment-intent', authMiddleware, createPaymentIntent);
 
